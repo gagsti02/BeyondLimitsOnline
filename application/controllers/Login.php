@@ -41,9 +41,6 @@ class Login extends CI_Controller
             } else {
                 redirect('page/author');
             }
-        } elseif ($email == "") {
-            echo $this->session->set_flashdata('msg', 'E-mail cannot be Blank');
-            redirect('login');
         } else {
             echo $this->session->set_flashdata('msg', 'E-mail or Password is Wrong');
             redirect('login');
