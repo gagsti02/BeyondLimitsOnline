@@ -15,10 +15,10 @@ class Login extends CI_Controller
     function auth()
     {
         $email    = $this->input->post('email', TRUE);
-        $password = md5($this->input->post('password', TRUE));
+        $password = $this->input->post('password', TRUE);
         $validate = $this->login_model->validate($email, $password);
-        if ($validate->num_rows() > 0) {
-            $data  = $validate->row_array();
+        if ($validate[1]) {
+            $data  = $validate[0]->row_array();
             $name  = $data['user_name'];
             $email = $data['user_email'];
             $level = $data['user_level'];
