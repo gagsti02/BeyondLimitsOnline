@@ -53,5 +53,3 @@ $route['default_controller'] = 'login';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
-$route['product/(:any)']="product_controller/index/$1";
-
