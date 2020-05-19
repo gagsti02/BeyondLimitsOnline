@@ -1,10 +1,4 @@
-/*--
-Author: Colorlib
-Author URL: https://colorlib.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
---*/
-/*-- reset --*/
+
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, dl, dt, dd, ol, nav ul, nav li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
     margin: 0;
     padding: 0;
@@ -209,9 +203,9 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   input[type="submit"] {
     font-size: .9em;
     color: #fff;
-    background: #76b852;
+    background: #db0f0f;
     outline: none;
-    border: 1px solid #76b852;
+    border: 1px solid #db0f0f;
     cursor: pointer;
     padding: 0.9em;
     -webkit-appearance: none;
@@ -226,7 +220,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     -o-transition: .5s all;
     -ms-transition: .5s all;
     transition: .5s all;
-    background: #8DC26F;
+    background: #ff3e3e;
   }
   
   .agileits-top p {
@@ -260,7 +254,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   }
   
   input.checkbox {
-    background: #8DC26F;
+    background: #979797;
     cursor: pointer;
     width: 1.2em;
     height: 1.2em;
@@ -278,11 +272,9 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   input.checkbox:after {
     content: "";
     position: absolute;
-    top: 0px;
-    left: 0;
-    z-index: 1;
-    width: 1.2em;
-    height: 1.2em;
+    left: 1;
+    width: 1.1em;
+    height: 1.1em;
     border: 1px solid #fff;
     -webkit-transition: .4s ease-in-out;
     -moz-transition: .4s ease-in-out;

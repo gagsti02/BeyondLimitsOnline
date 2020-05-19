@@ -19,7 +19,7 @@ class Login extends CI_Controller
         $validate = $this->login_model->validate($email, $password);
         if ($validate[1]) {
             $data  = $validate[0]->row_array();
-            $name  = $data['user_name'];
+            $name  = $data['user_fullname'];
             $email = $data['user_email'];
             $level = $data['user_level'];
             $sesdata = array(
